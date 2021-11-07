@@ -1,0 +1,36 @@
+body{
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.container{
+    text-align: center;
+    /* this property aligned the button in the center */
+
+}
+
+.hex-color{
+    font-size: 40px;
+    text-transform: capitalize;
+    /* this property to change the letters to capital  */
+
+}
+.theHex{
+    font-size: 3rem;
+}
+
+.btn{
+    padding:0.25rem 0.75rem;
+    font-size:40px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    background:#887877;
+    color:#fefefe
+}
+.btn:hover{
+    background:black;
+}
